@@ -24,6 +24,29 @@
 </h3>
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Wolf2901/NyraMusic"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<h3 align="center">
+    ─「 𝙳𝚎𝚙𝚕𝚘𝚢 𝚘𝚗 𝚅𝚙𝚜 」─
+
+
+```console
+$ sudo apt-get update 
+$ sudo apt-get upgrade -y
+$ sudo apt-get install python3-pip ffmpeg -y
+$ sudo pip3 install -U pip
+$ curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+$ sudo apt-get install nodejs -y
+$ npm i -g npm
+$ git clone https://github.com/Wolf2901/NyraMusic
+$ cd NyraMusic
+$ pip3 install -U -r requirements.txt
+$ bash setup (Edit .env with your values or you can simple copy a config from here and paste it to your notepad, then edit and paste there. && Press I button on keyboard to start editing. && Press Ctrl + C  once you are done with editing vars and type :wq to save .env or :qa to exit editing.)
+```
+> Setup will install each and every requirement, nodejs and pip packages automatically. After successfull installation of requirements , setup will ask you to input your vars.
+> Please input your vars correctly.
+
+```console
+$ bash start
+```
 
 <h3 align="center">
     ─「 sᴜᴩᴩᴏʀᴛ 」─
