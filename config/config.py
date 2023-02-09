@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Wolf2901/NyraMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Galaxia_Update")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Silent_robo_11")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Flix_iz_sad")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Sab_ki_duniya")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/4fee25040a0eee43c8418.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/0f9822937feae34b97a52.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/4fee25040a0eee43c8418.jpg",
+    "https://te.legra.ph/file/0f9822937feae34b97a52.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
